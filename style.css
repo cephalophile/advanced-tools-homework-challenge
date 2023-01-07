@@ -8,26 +8,7 @@ body {
   margin-top: 100px;
 }
 
-@media (max-width: 576px){
-  h1{
-    font-size: 48px;
-    line-height: 1.5;
-  }
-  h2{
-    font-size: 32px;
-  }
-  p{
-    text-align: center;
-  }
-  .project-link{
-    display: block;
-    text-align: center;
-    margin: 0 20px;
-  }
-  .d-sm-block {
-    display: block! important;
-  }
-}
+
 
 h1,
 h2,
@@ -106,5 +87,26 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+
+@media (max-width: 576px){
+  h1{
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  p{
+    text-align: center;
+  }
+  
+}
+
+.d-sm-block{
+  display: none;
+}
+@media (min-width: 576px){
+  .d-sm-block{
+    display:block!important;
+  }
 }
 
